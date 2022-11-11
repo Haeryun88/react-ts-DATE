@@ -1,0 +1,16 @@
+.birthday_date_picker {
+  width: 360px;
+  height: 594px;
+  border-radius: 24px 24px 0 0;
+  background-color: #eff1f4;
+  position: fixed;
+  bottom: 0%;
+  left: 50%;
+  z-index: 1;
+
+  transform: translateX(-50%);
+}
+
+html {
+  background-color: rgba(0, 0, 0, 0.7);
+}

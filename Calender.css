@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;700&display=swap');
+.calendar {
+  width: 320px;
+  height: 360px;
+  background-color: white;
+  border-radius: 12px;
+  margin: 0 20px;
+}
+.calendar .header {
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.calendar .header {
+}
+
+.calendar .header .col.col-first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1%;
+}
+.calendar .header .col.col-end {
+}
+
+.days {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Noto Sans KR';
+  font-size: 12px;
+}
+.days .col {
+  width: 44px;
+  height: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.body {
+  text-align: center;
+}
+.body .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.body .row .col {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.body span {
+}
+
+.body .col.cell {
+  width: 44px;
+  height: 44px;
+  font-size: 12px;
+  font-family: 'Noto Sans KR';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.body .col .valid {
+  color: blueviolet;
+}
+
+.body .col.cell.valid:hover {
+  transform: scale(1.01);
+  border: none;
+}
+.body .col.cell.selected {
+  border: none;
+  border-radius: 8px;
+  background: #ff821a;
+  color: white;
+}
+
+.text {
+  color: rgb(155, 155, 155);
+}
