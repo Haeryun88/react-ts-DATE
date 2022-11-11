@@ -9,7 +9,9 @@ import './Calender.css';
 const RenderHeader = ({ currentMonth, prevMonth, nextMonth }) => {
   return (
     <div className="header row">
-      <Icon icon="bi:arrow-left-circle-fill" onClick={prevMonth} />
+      <div className="prev_button" onClick={prevMonth}>
+        <img src="../asset/ic_chevron_left.svg" alt="이전버튼" />
+      </div>
 
       <div className="col col-start">
         <span className="text">
@@ -18,7 +20,9 @@ const RenderHeader = ({ currentMonth, prevMonth, nextMonth }) => {
         </span>
       </div>
       <div className="col col-end">
-        <Icon icon="bi:arrow-right-circle-fill" onClick={nextMonth} />
+        <div className="next_button" onClick={nextMonth}>
+          <img src="../asset/ic_chevron_right.svg" alt="다음버튼" />
+        </div>
       </div>
     </div>
   );

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;700&display=swap');
+
 .birthday_date_picker {
   width: 360px;
   height: 594px;
@@ -7,10 +9,54 @@
   bottom: 0%;
   left: 50%;
   z-index: 1;
-
   transform: translateX(-50%);
 }
 
 html {
   background-color: rgba(0, 0, 0, 0.7);
+}
+
+.selected_date {
+  margin-top: 24px;
+  font-size: 20px;
+  padding: 10px 20px 9px 20px;
+  width: 320px;
+  height: 29px;
+}
+
+.selected_date p {
+  margin: 0;
+  font-family: 'Noto Sans KR';
+  font-weight: 700;
+  color: #414e61;
+}
+
+.calendar {
+  margin: 16px 20px 0 20px;
+}
+
+.birthday_date_picker .buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 82px;
+}
+
+.birthday_date_picker .buttons span {
+  width: 135px;
+  height: 20px;
+  padding: 14.6px 10px;
+  border-radius: 10px;
+}
+
+.birthday_date_picker .buttons .cancle {
+  background-color: white;
+  border: 1.5px solid #d8dbeb;
+  margin-right: 10px;
+}
+
+.birthday_date_picker .buttons .confirm {
+  background-color: #414e61;
+  color: white;
 }
