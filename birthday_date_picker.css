@@ -76,6 +76,9 @@ html {
 }
 
 .add_profile_icon {
+  line-height: 24px;
+  filter: invert(55%) sepia(69%) saturate(1137%) hue-rotate(344deg)
+    brightness(98%) contrast(106%);
   padding: 0;
   width: 24px;
   height: 24px;

@@ -11,7 +11,7 @@
   height: 48px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
@@ -27,10 +27,7 @@
   margin-left: 1%;
 }
 
-.calendar .header .col.col-end {
-}
-
-.days {
+.calendar .days {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -38,7 +35,7 @@
   font-size: 12px;
 }
 
-.days .col {
+.calendar .days .col {
   width: 44px;
   height: 32px;
   display: flex;
@@ -47,27 +44,24 @@
   align-items: center;
 }
 
-.body {
+.calendar .body {
   text-align: center;
 }
 
-.body .row {
+.calendar .body .row {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
-.body .row .col {
+.calendar .body .row .col {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
 }
 
-.body span {
-}
-
-.body .col.cell {
+.calendar .body .col.cell {
   width: 44px;
   height: 44px;
   font-size: 12px;
@@ -76,33 +70,38 @@
   align-items: center;
 }
 
-.body .col .valid {
+.calendar .body .col .valid {
   color: blueviolet;
 }
 
-.body .col.cell.valid:hover {
+.calendar .body .col.cell.valid:hover {
   transform: scale(1.01);
   border: none;
 }
-.body .col.cell.selected {
+
+.calendar .body .col.cell.selected {
   border: none;
   border-radius: 8px;
   background: #ff821a;
   color: white;
 }
 
-.text {
+.calendar .text {
   color: rgb(155, 155, 155);
 }
 
-.prev_button {
+.calendar .prev_button {
   width: 24px;
   height: 24px;
   background-image: url(./asset/ic_chevron_left.svg);
+  filter: invert(52%) sepia(11%) saturate(407%) hue-rotate(176deg)
+    brightness(96%) contrast(93%);
 }
 
-.next_button {
+.calendar .next_button {
   width: 24px;
   height: 24px;
   background-image: url(./asset/ic_chevron_right.svg);
+  filter: invert(52%) sepia(11%) saturate(407%) hue-rotate(176deg)
+    brightness(96%) contrast(93%);
 }
