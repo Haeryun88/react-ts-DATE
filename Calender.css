@@ -96,9 +96,13 @@
 }
 
 .prev_button {
-  background-image: url(../asset/ic_chevron_left.svg);
+  width: 24px;
+  height: 24px;
+  background-image: url(./asset/ic_chevron_left.svg);
 }
 
 .next_button {
-  background-image: url(../asset/ic_chevron_left.svg);
+  width: 24px;
+  height: 24px;
+  background-image: url(./asset/ic_chevron_right.svg);
 }

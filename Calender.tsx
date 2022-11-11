@@ -10,7 +10,7 @@ const RenderHeader = ({ currentMonth, prevMonth, nextMonth }) => {
   return (
     <div className="header row">
       <div className="prev_button" onClick={prevMonth}>
-        <img src="../asset/ic_chevron_left.svg" alt="이전버튼" />
+        <img src="../asset/ic_chevron_left.svg" alt=" " />
       </div>
 
       <div className="col col-start">
@@ -21,7 +21,7 @@ const RenderHeader = ({ currentMonth, prevMonth, nextMonth }) => {
       </div>
       <div className="col col-end">
         <div className="next_button" onClick={nextMonth}>
-          <img src="../asset/ic_chevron_right.svg" alt="다음버튼" />
+          <img src="../asset/ic_chevron_right.svg" alt=" " />
         </div>
       </div>
     </div>

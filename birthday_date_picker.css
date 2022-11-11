@@ -10,6 +10,7 @@
   left: 50%;
   z-index: 1;
   transform: translateX(-50%);
+  font-family: 'Noto Sans KR';
 }
 
 html {
@@ -26,7 +27,6 @@ html {
 
 .selected_date p {
   margin: 0;
-  font-family: 'Noto Sans KR';
   font-weight: 700;
   color: #414e61;
 }
@@ -59,4 +59,25 @@ html {
 .birthday_date_picker .buttons .confirm {
   background-color: #414e61;
   color: white;
+}
+
+.add_profile {
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ff7b0e;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+.add_profile span:nth-of-type(1) {
+  padding: 1px 0 3px 0;
+}
+
+.add_profile_icon {
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  background-image: url(./asset/ic_chevron_right.svg);
 }
